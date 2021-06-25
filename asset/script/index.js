@@ -79,28 +79,28 @@ $(".screenshot-body").owlCarousel({
 const testimonial_reviewar = [
   {
     id: 1,
-    img: "image/client2.jpg",
+    img: "asset/image/client2.jpg",
     name: "Petar parker",
     sure_name: "CEO",
     descripton: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia beatae, totam corporis facilis quis sequi iusto quaerat qui aliquid voluptates! Quasi asperiores reprehenderit quae cum!`,
   },
   {
     id: 2,
-    img: "image/client3.jpg",
+    img: "asset/image/client3.jpg",
     name: "Johon mike",
     sure_name: "Mangager",
     descripton: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia beatae, totam corporis facilis quis sequi iusto quaerat qui aliquid voluptates! Quasi asperiores reprehenderit quae cum!.`,
   },
   {
     id: 3,
-    img: "image/client4.jpg",
+    img: "asset/image/client4.jpg",
     name: "Mr Benze",
     sure_name: "Web Develpoer",
     descripton: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia beatae, totam corporis facilis quis sequi iusto quaerat qui aliquid voluptates! Quasi asperiores reprehenderit quae cum!`,
   },
   {
     id: 4,
-    img: "image/client1.jpg",
+    img: "asset/image/client1.jpg",
     name: "Wangro",
     sure_name: "Worker",
     descripton: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia beatae, totam corporis facilis quis sequi iusto quaerat qui aliquid voluptates! Quasi asperiores reprehenderit quae cum!.`,
@@ -116,7 +116,7 @@ const display_testimoial = () => {
          <div class="d-flex justify-content-between person-info">
              <img src="${e.img}" class="img-fluid border border-3 rounded-circle" alt="">
              <div class="person-name">
-                 <h4>-${e.name}</h4>
+                 <h4>${e.name}</h4>
                  <span>${e.sure_name}</span>
              </div>
              <i class="fas fa-quote-right"></i>
@@ -167,7 +167,7 @@ const team_Details = [
     id: 1,
     name: "Elaisha",
     profession: "web developer",
-    img: "image/team001.jpg",
+    img: "asset/image/team001.jpg",
     faceBook: "#0",
     in: "#0",
     instagram: "#0",
@@ -177,7 +177,7 @@ const team_Details = [
     id: 2,
     name: "Mical jos",
     profession: "Android developer",
-    img: "image/team002.jpeg",
+    img: "asset/image/team002.jpeg",
     faceBook: "#0",
     in: "#0",
     instagram: "#0",
@@ -187,7 +187,7 @@ const team_Details = [
     id: 3,
     name: "Alex Jaz",
     profession: "web desinger",
-    img: "image/team003.jpg",
+    img: "asset/image/team003.jpg",
     faceBook: "#0",
     in: "#0",
     instagram: "#0",
@@ -197,7 +197,7 @@ const team_Details = [
     id: 4,
     name: "Elaish",
     profession: "App Desinger",
-    img: "image/team004.jpg",
+    img: "asset/image/team004.jpg",
     faceBook: "#0",
     in: "#0",
     instagram: "#0",
@@ -207,7 +207,7 @@ const team_Details = [
     id: 5,
     name: "Harry",
     profession: "Assistant",
-    img: "image/team005.jpg",
+    img: "asset/image/team005.jpg",
     faceBook: "#0",
     in: "#0",
     instagram: "#0",
@@ -217,7 +217,7 @@ const team_Details = [
     id: 6,
     name: "Jonny Dav",
     profession: "Actor",
-    img: "image/team006.jpg",
+    img: "asset/image/team006.jpg",
     faceBook: "#0",
     in: "#0",
     instagram: "#0",
